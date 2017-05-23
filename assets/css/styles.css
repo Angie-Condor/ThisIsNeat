@@ -12,7 +12,7 @@ body {
   letter-spacing: 0.5px;
 }
 
-.alert {
+.msj-alert {
   position: fixed;
   top: 0;
   left: 0;
@@ -22,8 +22,8 @@ body {
   background-color: #ED7161;
   text-align: center;
   z-index: 500;
-  height: 40px;
-  padding: 1%;
+  height: 35px;
+  padding: 0.4% 0 0 0;
 }
 .transform{
   transform: translateY(0);
@@ -38,10 +38,9 @@ body {
   text-shadow: none;
   background-color: transparent;
   border: 0;
-  z-index: 1000;
 }
 
-.icon--hello--close{
+.icon--close{
   position: absolute;
   display: inline-block;
   top: 50%;
@@ -49,26 +48,42 @@ body {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   color:  #fff;
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   right: 20px;
-
-}
-
-.icon--hello--close:hover{
-  color:  #fff;
 }
 
 .header{
   position: relative;
-  padding-top: 60px;
-  min-height: auto;
+  max-height: 650px;
   z-index: 10;
-  padding-bottom: 50px;
+}
+
+.navbar{
+  padding-top: 30px;
+  left: 2%;
+}
+.contact-mail{
+  position: relative;
+  top: 50px;
 }
 
 .background-header{
   background-color: #9ACCEF;
+}
+.nav-header{
+  padding: 3% 0 0 11%;
+  width: auto;
+  font-size: 1.4rem;
+}
+.nav-header ul li a{
+  color: #fff;
+  font-weight: 600;
+}
+.nav-header ul li a:hover{
+  color: #3498DB;
+  text-decoration: none;
+  font-weight: 400;
 }
 .icon svg {
     display: block;
@@ -89,6 +104,7 @@ body {
 }
 .mailito{
   color:#fff;
+  padding-left: 34%;
 }
 svg:not(:root) {
     overflow: hidden;
@@ -108,6 +124,9 @@ svg{
 
 .intro--alt {
     color: #FFF;
+}
+.intro__logo{
+  padding-left: 25%;
 }
 .format-header{
   line-height: 5.14286rem;
@@ -131,7 +150,7 @@ h4{
   line-height: 1.33;
   border-radius: 999px;
 }
-.icon--hero-park,.icon--hero-bench, .icon--hero-bg {
+.icon--hero-park,.icon--hero-bench, .icon--hero-bg, .icon--hero {
     position: absolute;
     width: 260px;
     height: 316px;
@@ -147,9 +166,9 @@ h4{
 }
 .container{
 }
-.section__bg.icon--hero-bg {
+.section__bg.icon--hero-bg, .section__bg.icon--hero{
   position: absolute;
-  top: 74px;
+  top: 0px;
   left: 0;
   width: 100%;
   height: 480px;
@@ -166,7 +185,7 @@ h4{
 .step__heading {
     margin: 0 0 20px;
 }
-.step__heading {
+.step__heading, .color-title-promise {
     color: #3498DB;
 }
 .section--steps {
@@ -216,8 +235,8 @@ h2 {
     position: absolute;
     left: 50%;
     top: 50%;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     -webkit-transform: translateX(-50%) translateY(-50%);
     -ms-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
@@ -230,32 +249,166 @@ h2 {
     font-weight: 200;
 
 }
+.promise{
+  margin: auto;
+}
+.promise span {
+padding: 30px 46px;
+}
+.promise-tittle{
+  font-size: 64px;
+  font-weight: 600;
+}
 
+.promise-tittle-sub{
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+}
+.promise-success{
+  font-size: 18px;
+  font-weight: 600;
+}
+.promise-gray{
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 24px;
+}
+.img-content{
+  width: 74px;
+  height: 78px;
+  display: inline-block;
+  overflow: auto;
+  position: relative;
+}
 
-
+.img-content i {
+  padding: 39px 37px;
+  position: absolute;
+}
+.col-promise {
+  padding: 0 42px;
+  text-align: center;
+}
+.icono-promise{
+  margin: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+}
 .bg-color{
-  background-color: #75b9e7;
+  background-color: #3498DB;
   width: 100%;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-left: 2rem;
 }
-
 .img-transform{
   transform: rotateZ(4deg);
 }
-
 .img-transform2{
   transform: rotateZ(-5deg);
 }
-
 .img-transform:hover{
   transition: 0.75 transform cubic-bezier(0.23, 1, 0.32, 1);
   transform: rotateZ(8deg);
 }
-
 .img-transform2:hover{
   transition: 0.75 transform cubic-bezier(0.23, 1, 0.32, 1);
   transform: rotateZ(-10deg);
+}
+
+#cleaning-checklist{
+  background-color: #3498DB;
+}
+#cleaning-checklist h1{
+  font-size: 7rem;
+  font-weight: 600;
+}
+#cleaning-checklist p{
+  font-size: 1.5em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top:10px;
+}
+.checklist{
+  background-color: white;
+  color: #494949;
+  margin-bottom: 30px;
+  border-radius: 3px;
+}
+.checklist div{
+  padding: 10px;
+}
+.check{
+  color: #6EA43F;
+  padding-right: 15px;
+}
+.item-checklist{
+  padding: 15px 30px;
+  border-top: 1px solid #ddd;
+  display: flex;
+  justify-content: initial;
+  align-items: center;
+}
+.rooms{
+  height: 650px;
+}
+@media (max-width: 1100px){
+  .rooms{
+    height: 1000px;
+  }
+}
+.laundry{
+  height: 280px;
+}
+@media (max-width: 1100px){
+  .laundry{
+    height: 400px;
+  }
+}
+
+.bg-footer{
+  background-color: #3498DB;
+}
+.white{
+  color: white;
+  margin: 20px;
+}
+footer img{
+  width: 120px;
+  height: 60px;
+}
+.f-ico{
+  margin: 0 0 50px;
+}
+.f-ico a{
+  display: inline-block;
+  background-color: #1280c9;
+  border-radius: 50%;
+  transition: background-color 0.2s linear;
+  margin: 0 5px;
+}
+.f-ico a:hover{
+  background-color: #0e629a;
+  text-decoration: none;
+}
+
+a, a:hover{
+  color: white;
+  text-decoration: none;
+}
+.glyphicon{
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  vertical-align: middle;
+}
+footer div ul li{
+    padding: 10px;
+}
+footer div ul li:last-child{
+    margin-left: 75px;
 }

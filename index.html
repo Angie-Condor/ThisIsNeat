@@ -1,33 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Neat</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+    <meta name="description" content="">
+    <title>This is Neat</title>
     <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/icons.data.svg.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700" rel="stylesheet">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
-    <link href="assets/css/icons.data.svg.css" rel="stylesheet">
   </head>
   <body>
-    <div class="alert alert-danger alert-dismissable transform hidden-xs">
-      <button type="button" class="icon icon--hello--close" data-dismiss="alert"></button>
+    <div class="msj-alert hidden-xs">
+      <button type="button" class="icon icon--hello--close icon--close" data-dismiss="alert"></button>
       <span>This week only, use code <strong>BONDBACK15</strong> to get 15% off your end of lease cleaning. Expires <strong>21/05/2017</strong>.</span>
     </div>
     <section class="header background-header">
-      <span class="icon icon--hero-park img-responsive"></span>
-      <span class="icon icon--hero-bench img-responsive"></span>
-      <span class="section__bg icon icon--hero-bg"></span>
+      <span class="icon icon--hero-park img-responsive hidden-xs"></span>
+      <span class="icon icon--hero-bench img-responsive hidden-xs"></span>
+      <span class="section__bg icon icon--hero-bg hidden-xs"></span>
+      <span class="section__bg icon icon--hero hidden-xs"></span>
       <div class="container">
         <div class="row hidden-xs">
-          <div class="col-xs-6 col-md-2 col-lg-2 pull-left">
-            <a href="index.html">
-              <img src="assets/img/logo.png" width="90px" alt="End of Lease Cleaning in Sydney">
-            </a>
+          <div class="col-xs-6 pull-left navbar hidden-xs">
+            <div class="col-xs-1">
+              <a href="https://thisisneat.com.au">
+                <img src="assets/img/logo.png" width="90px" alt="End of Lease Cleaning in Sydney">
+              </a>
+            </div>
+            <div class="nav-header col-sm-5">
+              <ul class="list-inline hidden-xs">
+                <li><a href="#">How It Works</a></li>
+                <li><a href="#">Our promise</a></li>
+                <li><a href="#">Our Community</a></li>
+                <li><a href="#">Cleaning checklist</a></li>
+              </ul>
+            </div>
           </div>
-          <div class="col-xs-6 col-md-2 col-lg-2 margin-top-15 pull-right">
+          <div class="col-xs-6 pull-right contact-mail">
             <div>
               <i class="icon icon--sm">
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="63.998px" viewBox="0 0 64 63.998" enable-background="new 0 0 64 63.998" xml:space="preserve">
@@ -135,6 +147,67 @@
         </div>
       </div>
     </section>
+    <section id="promise" class="promise container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="color-title-promise text-center promise-tittle">Our Promise</h2>
+          <h5 class="promise-tittle-sub text-center h5">What does it take to leave every customer with a smile? </h5>
+          <p class="promise-tittle-sub text-center h5">Here's how we're going keep Sydney happy!</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-promise">
+          <div class="img-content text-center">
+            <i class="icono-promise icon--feature-support"></i>
+          </div>
+          <h2 class="text-success promise-success text-center h5">Customer Service</h2>
+          <p class="promise-gray text-center h5">Our customers always come first! If you have a question, we make ourselves available via
+            live chat, email, or phone.</p>
+        </div>
+        <div class="col-md-4 col-promise">
+            <div class="img-content">
+              <i class="icono-promise icon--feature-professional"></i>
+            </div>
+            <h2 class="text-success promise-success text-center h5">Trained &amp; Certified</h2>
+            <p class="promise-gray text-center h5">A high quality service requires professionally
+              trained and certified staff. We take pride in our cleaners so you can too!</p>
+        </div>
+        <div class="col-md-4 col-promise">
+              <div class="img-content">
+                <i class="icono-promise icon--feature-insurance"></i>
+              </div>
+              <h2 class="text-success promise-success text-center h5">Full Liability Insurance</h2>
+              <p class="promise-gray text-center h5">Things go wrong sometimes but rest assured,
+                we got it covered. We put love into the details and on top of that, have full liability insurance!</p>
+        </div>
+      </div>
+      <div class="row">
+            <div class="col-md-4 col-promise">
+                <div class="img-content">
+                  <i class="icono-promise icon--feature-flexibility"></i>
+                </div>
+                <h2 class="text-success promise-success text-center h5">Flexibility</h2>
+                <p class="promise-gray text-center h5">Whether it means picking up your keys,
+                  cleaning on holidays, or making a deadline, our flexible service is here to assist.</p>
+            </div>
+            <div class="col-md-4 col-promise">
+                  <div class="img-content">
+                    <i class="icono-promise icon--feature-transparency"></i>
+                  </div>
+                  <h2 class="text-success promise-success text-center h5">Transparency</h2>
+                  <p class="promise-gray text-center h5">Sometimes a simple form just doesn’t cut it. If your home needs a little more love, we'll let you know so you're always on top of what's happening.</p>
+            </div>
+            <div class="col-md-4 col-promise">
+                  <div class="img-content">
+                    <i class="icono-promise icon--feature-eco"></i>
+                  </div>
+                  <h2 class="text-success promise-success text-center h5">Eco-friendly</h2>
+                  <p class="promise-gray text-center h5">You care. We care. Our range of cleaning
+                    services includes environmentally friendly
+                    and green products.</p>
+            </div>
+      </div>
+    </section>
     <section class="gallery col-xs-12">
       <div class="bg-color container">
         <div class="row center-block">
@@ -156,6 +229,217 @@
         </div>
       </div>
     </section>
+    <section id="cleaning-checklist">
+      <div class="container">
+        <div class="row">
+          <div class="container text-center">
+            <h1 class="white">Cleaning Checklist</h1>
+            <p>Our end of lease cleaning services cover all the important details that your real estate agent is looking for.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-4">
+            <div class="checklist rooms">
+              <div class="text-center">
+                <p>Rooms</p>
+                <small>Includes all rooms, kitchens, bathrooms and hallways where applicable</small>
+              </div>
+              <ul class="list-unstyled">
+                <li class="item-checklist">
+                  <i class="glyphicon glyphicon-ok check"></i>
+                  <span>vacuum/sweep/mop floors</span>
+                </li>
+                <li class="item-checklist">
+                  <i class="glyphicon glyphicon-ok check"></i> clean cupboards, shelves, and drawers
+                </li>
+                <li class="item-checklist">
+                  <i class="glyphicon glyphicon-ok check"></i> clean wardrobe mirrors, frame and tracks
+                </li>
+                <li class="item-checklist">
+                  <i class="glyphicon glyphicon-ok check"></i><span> wash window, sills, and tracks (excluding floor-to-ceiling windows)</span>
+                </li>
+                <li class="item-checklist">
+                  <i class="glyphicon glyphicon-ok check"></i> detail door frames
+                </li>
+                <li class="item-checklist">
+                  <i class="glyphicon glyphicon-ok check"></i> detail skirting board
+                </li>
+                <li class="item-checklist">
+                  <i class="glyphicon glyphicon-ok check"></i> dust blinds
+                </li>
+                <li class="item-checklist">
+                  <i class="glyphicon glyphicon-ok check"></i> clean accessible light fixtures
+                </li>
+                <li class="item-checklist">
+                  <i class="glyphicon glyphicon-ok check"></i> clean light switches and power points
+                </li>
+                <li class="item-checklist">
+                  <i class="glyphicon glyphicon-ok check"></i> remove cobwebs
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="checklist rooms">
+              <div class="text-center">
+                <p>Kitchen</p>
+              </div>
+              <ul class="list-unstyled">
+                <li class="item-checklist">
+                  <i class="glyphicon glyphicon-ok check"></i>clean oven (interior + exterior)
+                </li>
+                <li class="item-checklist">
+                  <i class="glyphicon glyphicon-ok check"></i> clean stovetop
+                </li>
+                <li class="item-checklist">
+                  <i class="glyphicon glyphicon-ok check"></i> degrease range hood
+                </li>
+                <li class="item-checklist">
+                  <i class="glyphicon glyphicon-ok check"></i><span> clean bench top surfaces</span>
+                </li>
+                <li class="item-checklist">
+                  <i class="glyphicon glyphicon-ok check"></i> clean backsplash
+                </li>
+                <li class="item-checklist">
+                  <i class="glyphicon glyphicon-ok check"></i>clean sink, handles and spout
+                </li>
+                <li class="item-checklist">
+                  <i class="glyphicon glyphicon-ok check"></i> clean pantry
+                </li>
+                <li class="item-checklist">
+                  <i class="glyphicon glyphicon-ok check"></i> clean cupboards, shelves and drawers
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="checklist rooms">
+              <div class="text-center">
+                <p>Bathroom</p>
+              </div>
+              <ul class="list-unstyled">
+                <li class="item-checklist">
+                  <i class="glyphicon glyphicon-ok check"></i>
+                  <span>wash tiled surfaces</span>
+                </li>
+                <li class="item-checklist">
+                  <i class="glyphicon glyphicon-ok check"></i> clean bathtubs and basins
+                </li>
+                <li class="item-checklist">
+                  <i class="glyphicon glyphicon-ok check"></i> clean shower glass/screens
+                </li>
+                <li class="item-checklist">
+                  <i class="glyphicon glyphicon-ok check"></i> clean shower head and faucets
+                </li>
+                <li class="item-checklist">
+                  <i class="glyphicon glyphicon-ok check"></i> clean and disinfect toilets
+                </li>
+                <li class="item-checklist">
+                  <i class="glyphicon glyphicon-ok check"></i>clean vanity, handles and spout
+                </li>
+                <li class="item-checklist">
+                  <i class="glyphicon glyphicon-ok check"></i><span> clean medicine cabinets</span>
+                </li>
+                <li class="item-checklist">
+                  <i class="glyphicon glyphicon-ok check"></i> polish mirrors
+                </li>
+                <li class="item-checklist">
+                  <i class="glyphicon glyphicon-ok check"></i> dust air ventss
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="checklist laundry">
+              <div class="text-center">
+                <p>Laundry</p>
+              </div>
+              <ul class="list-unstyled">
+                <li class="item-checklist">
+                  <i class="glyphicon glyphicon-ok check"></i>vacuum/sweep/mop floors
+                </li>
+                <li class="item-checklist">
+                  <i class="glyphicon glyphicon-ok check"></i> wipe down washer and dryer surfaces
+                </li>
+                <li class="item-checklist">
+                  <i class="glyphicon glyphicon-ok check"></i> remove dryer lint
+                </li>
+                <li class="item-checklist">
+                  <i class="glyphicon glyphicon-ok check"></i><span> clean sink, handles, and spout</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="checklist laundry">
+              <div class="text-center">
+                <p>Balcony</p>
+              </div>
+              <ul class="list-unstyled">
+                <li class="item-checklist">
+                  <i class="glyphicon glyphicon-ok check"></i>vacuum/sweep/mop floors
+                </li>
+                <li class="item-checklist">
+                  <i class="glyphicon glyphicon-ok check"></i> wash sliding patio doors and tracks
+                </li>
+                <li class="item-checklist">
+                  <i class="glyphicon glyphicon-ok check"></i> wash window, sills and tracks
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="checklist laundry">
+              <div class="text-center">
+                <p>Garage</p>
+              </div>
+              <ul class="list-unstyled">
+                <li class="item-checklist">
+                  <i class="glyphicon glyphicon-ok check"></i> sweep floors
+                </li>
+                <li class="item-checklist">
+                  <i class="glyphicon glyphicon-ok check"></i> clean cupboards, shelves, and drawers
+                </li>
+                <li class="item-checklist">
+                  <i class="glyphicon glyphicon-ok check"></i> remove cobweb
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="container-fluid bg-footer">
+      <div class="row">
+        <div class="col-xs-12 text-center">
+          <div class="">
+            <img src="assets/img/logo.png" alt="" class="">
+          </div>
+          <div>
+            <strong><h3 class="white">You move out, we clean up.</h3></strong>
+          </div>
+          <div class="f-ico">
+            <a class="glyphicon icon--social-fb"></a>
+            <a class="glyphicon icon--social-tw"></a>
+            <a class="glyphicon icon--social-gp"></a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <ul class="list-inline text-center white">
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Terms and Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">ABN: 92 616 673 440</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="assets/js/bootstrap.js"></script>
     <script src="assets/js/main.js" charset="utf-8"></script>
